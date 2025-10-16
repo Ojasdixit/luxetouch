@@ -9,33 +9,33 @@ import stylist5 from "@/assets/stylist-5.jpg";
 const Team = () => {
   const stylists = [
     {
-      name: "Sophia Martinez",
-      specialty: "Master Stylist & Colorist",
-      bio: "With over 12 years of experience, Sophia specializes in dimensional color and precision cuts. Her passion for the latest trends ensures every client leaves feeling confident.",
+      name: "Luke Moretti",
+      specialty: "Founder & Creative Director",
+      bio: "A visionary stylist with over 15 years of experience in luxury hair design. Luke’s philosophy combines contemporary precision with the calm artistry of high-end salon craft.",
       image: stylist1,
     },
     {
-      name: "James Chen",
-      specialty: "Senior Stylist",
-      bio: "James brings a modern edge to classic styles. His expertise in men's cuts and contemporary styling has earned him a loyal following of fashion-forward clients.",
+      name: "Clara Voss",
+      specialty: "Senior Colorist",
+      bio: "Specialist in multidimensional tones and natural balayage. Known for achieving seamless transitions and glossy finishes with a soft, elegant aesthetic.",
       image: stylist2,
     },
     {
-      name: "Isabella Rose",
-      specialty: "Makeup Artist & Esthetician",
-      bio: "Isabella's artistic eye and gentle touch create stunning makeup looks and rejuvenating facial treatments. She's the go-to expert for bridal beauty and special occasions.",
+      name: "Renee Delaine",
+      specialty: "Facial & Skincare Expert",
+      bio: "Certified aesthetician with a focus on European techniques and organic skincare. Her facials are restorative, soothing, and tailored to each client’s complexion.",
       image: stylist3,
     },
     {
-      name: "Emma Laurent",
-      specialty: "Nail Technician",
-      bio: "Emma's meticulous attention to detail and creative flair make every manicure a work of art. She stays ahead of nail trends and loves creating custom designs.",
+      name: "Ella Rhodes",
+      specialty: "Lead Makeup Artist",
+      bio: "Renowned for her modern bridal and editorial work. Ella’s approach blends subtle glamour with a clean, dewy finish.",
       image: stylist4,
     },
     {
-      name: "Olivia Stone",
-      specialty: "Spa Specialist",
-      bio: "Olivia's calming presence and expertise in skincare create a truly relaxing spa experience. Her customized facial treatments address each client's unique skin concerns.",
+      name: "Sophia Hayes",
+      specialty: "Nail Art Specialist",
+      bio: "Precision nail designer specializing in minimal, elegant styles — from neutral palettes to soft chrome and marble finishes.",
       image: stylist5,
     },
   ];
@@ -46,10 +46,10 @@ const Team = () => {
         {/* Header */}
         <div className="text-center mb-16 animate-fade-in">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-primary">
-            Meet Our Expert Team
+            Our Team
           </h1>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto mb-8">
-            Our passionate team of beauty professionals is dedicated to making you look and feel your absolute best. Each stylist brings unique expertise and a commitment to excellence.
+            Luxe Touch is home to a collective of seasoned professionals, each bringing their expertise and creative energy to every appointment.
           </p>
           <BookingButton />
         </div>

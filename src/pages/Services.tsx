@@ -4,79 +4,34 @@ import ServiceCard from "@/components/ServiceCard";
 const Services = () => {
   const services = [
     {
-      title: "Women's Haircut",
-      description: "Precision cuts tailored to your face shape and lifestyle, including wash, cut, and blow dry.",
-      price: "$65 - $85",
+      title: "Signature Hair Design",
+      description: "Tailored haircuts and precision styling crafted to complement your individuality. Every session begins with a personalized consultation to ensure a flawless finish that suits your lifestyle and personality.",
+      price: "Contact for pricing",
     },
     {
-      title: "Men's Haircut",
-      description: "Classic and modern cuts with attention to detail, including wash, cut, and styling.",
-      price: "$45 - $60",
+      title: "Advanced Coloring & Highlights",
+      description: "From subtle balayage to bold transformations, our color experts use ammonia-free, nourishing products to achieve depth, tone, and dimension while preserving the health of your hair.",
+      price: "Contact for pricing",
     },
     {
-      title: "Balayage",
-      description: "Natural-looking highlights painted by hand for a sun-kissed, dimensional effect.",
-      price: "$180 - $250",
+      title: "Luxury Hair Treatments",
+      description: "Rejuvenate and repair with our exclusive in-salon rituals using botanical extracts, keratin, and silk proteins. Ideal for restoring strength, shine, and smoothness.",
+      price: "Contact for pricing",
     },
     {
-      title: "Full Color",
-      description: "Complete color transformation using premium products for vibrant, long-lasting results.",
-      price: "$120 - $180",
+      title: "Skin & Facial Spa",
+      description: "Indulge in deep-cleansing, hydrating, and anti-aging treatments designed to restore balance and radiance to your skin. Each session is customized to your skin type and concerns.",
+      price: "Contact for pricing",
     },
     {
-      title: "Highlights",
-      description: "Classic foil highlights to brighten and add dimension to your hair.",
-      price: "$140 - $200",
+      title: "Nail & Hand Care",
+      description: "Classic manicures, gel polish applications, and luxury spa pedicures performed with precision and care. A complete rejuvenation for your hands and feet.",
+      price: "Contact for pricing",
     },
     {
-      title: "Color Correction",
-      description: "Expert correction for previous color mishaps, customized to achieve your desired look.",
-      price: "From $250",
-    },
-    {
-      title: "Deep Conditioning Treatment",
-      description: "Intensive hydration treatment to restore moisture, shine, and manageability.",
-      price: "$45 - $75",
-    },
-    {
-      title: "Keratin Treatment",
-      description: "Smoothing treatment that reduces frizz and adds incredible shine for up to 3 months.",
-      price: "$250 - $350",
-    },
-    {
-      title: "Bridal Styling",
-      description: "Complete bridal hair package including trial session and day-of styling.",
-      price: "From $200",
-    },
-    {
-      title: "Special Event Styling",
-      description: "Elegant updos and styling for any special occasion, perfect for weddings and galas.",
-      price: "$95 - $150",
-    },
-    {
-      title: "Classic Manicure",
-      description: "Complete nail care including shaping, cuticle care, and polish application.",
-      price: "$35 - $45",
-    },
-    {
-      title: "Gel Manicure",
-      description: "Long-lasting gel polish that stays perfect for up to 3 weeks.",
-      price: "$55 - $70",
-    },
-    {
-      title: "Luxury Pedicure",
-      description: "Relaxing foot treatment with exfoliation, massage, and polish.",
-      price: "$65 - $85",
-    },
-    {
-      title: "Facial Treatment",
-      description: "Customized facial treatment to cleanse, exfoliate, and rejuvenate your skin.",
-      price: "$95 - $140",
-    },
-    {
-      title: "Makeup Application",
-      description: "Professional makeup for any occasion using premium cosmetics.",
-      price: "$75 - $120",
+      title: "Occasion Styling & Makeup",
+      description: "Bridal, editorial, and event makeup services by our expert artists — enhancing your natural features with luxury-grade cosmetics and attention to detail.",
+      price: "Contact for pricing",
     },
   ];
 
