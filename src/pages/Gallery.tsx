@@ -29,7 +29,7 @@ const Gallery = () => {
             Our Work
           </h1>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto mb-8">
-            Explore our portfolio of stunning transformations and be inspired for your next visit.
+            Our gallery reflects the craftsmanship and creativity behind every service. From soft balayage gradients and precision cuts to elegant updos and glowing bridal finishes, each image captures the spirit of modern refinement. Every style showcased was created in-house by the Luxe Touch team, using the finest products and techniques that embody understated beauty.
           </p>
           <BookingButton />
         </div>

@@ -12,20 +12,20 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <p className="text-sm text-foreground/70">
-                  123 Luxury Lane<br />
-                  Beauty District, BD 12345
+                  28 Willow Lane<br />
+                  Midtown District, New York, NY 10017
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-primary flex-shrink-0" />
-                <a href="tel:+1234567890" className="text-sm text-foreground/70 hover:text-primary transition-smooth">
-                  (123) 456-7890
+                <a href="tel:+12125550921" className="text-sm text-foreground/70 hover:text-primary transition-smooth">
+                  (212) 555-0921
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-primary flex-shrink-0" />
-                <a href="mailto:hello@luxetouch.com" className="text-sm text-foreground/70 hover:text-primary transition-smooth">
-                  hello@luxetouch.com
+                <a href="mailto:contact@luxetouch.com" className="text-sm text-foreground/70 hover:text-primary transition-smooth">
+                  contact@luxetouch.com
                 </a>
               </div>
             </div>
@@ -38,8 +38,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Clock className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <div className="text-sm text-foreground/70">
-                  <p>Monday - Friday: 9:00 AM - 7:00 PM</p>
-                  <p>Saturday: 10:00 AM - 6:00 PM</p>
+                  <p>Monday – Saturday: 9:00 AM – 7:30 PM</p>
                   <p>Sunday: Closed</p>
                 </div>
               </div>
@@ -69,7 +68,7 @@ const Footer = () => {
                 <Facebook className="h-5 w-5 text-primary" />
               </a>
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/12125550921"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 bg-background rounded-full hover:bg-primary/10 transition-smooth shadow-soft hover:shadow-hover"

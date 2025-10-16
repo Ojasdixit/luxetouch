@@ -102,10 +102,10 @@ const Home = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-2xl animate-fade-in">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 text-foreground">
-              Welcome to Luxe Touch — where modern artistry meets timeless elegance.
+              Welcome to Luxe Touch.
             </h1>
             <p className="text-lg md:text-xl text-foreground/70 mb-8 leading-relaxed">
-              Nestled in the heart of the city, Luxe Touch is a boutique salon founded by Luke Moretti, a stylist with a passion for precision, detail, and the effortless beauty of simplicity. Our philosophy is rooted in the belief that beauty should be personal, intimate, and transformative. From the moment you step into Luxe Touch, every element — from the scent of our handcrafted oils to the softness of our tones — is designed to create an atmosphere of calm sophistication. Book your appointment and experience beauty elevated to an art form.
+              Nestled in the heart of the city, Luxe Touch is a boutique salon founded by Luke Moretti, a stylist with a passion for precision, detail, and the effortless beauty of simplicity. Our philosophy is rooted in the belief that beauty should be personal, intimate, and transformative. From the moment you step into Luxe Touch, every element.
             </p>
             <BookingButton />
           </div>

@@ -11,7 +11,7 @@ const About = () => {
             About Luxe Touch
           </h1>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            Where elegance meets expertise in the heart of beauty
+            Where sophistication meets sincerity in the heart of beauty
           </p>
         </div>
 
@@ -21,19 +21,7 @@ const About = () => {
             <h2 className="text-2xl md:text-3xl font-bold mb-6 text-primary">Our Story</h2>
             <div className="space-y-4 text-foreground/70 leading-relaxed">
               <p>
-                Founded with a vision to create a sanctuary where beauty and luxury converge, Luxe Touch has become 
-                a premier destination for discerning clients seeking exceptional salon services.
-              </p>
-              <p>
-                Our journey began with a simple belief: that everyone deserves to feel beautiful, confident, and pampered. 
-                We've cultivated an environment where cutting-edge techniques meet timeless elegance, where every visit 
-                is an experience in indulgence and transformation.
-              </p>
-              <p>
-                What sets us apart is our unwavering commitment to excellence. From the moment you step through our doors, 
-                you'll be enveloped in an atmosphere of sophistication and warmth. Our team of expert stylists stays at 
-                the forefront of beauty trends through continuous education, ensuring you receive the most innovative and 
-                personalized services available.
+                Luxe Touch was founded by Luke Moretti in 2014 with one guiding principle: to create a space where sophistication meets sincerity. Luke began his career working in international salons across Milan, Paris, and New York before returning home to establish a studio that blends artistry with a serene, personalized experience. Every detail of Luxe Touch — from its neutral palette and clean architecture to the curated product line — reflects Luke’s dedication to quality and calm luxury. The salon has grown into a destination for those who value timeless design, discretion, and impeccable service. At Luxe Touch, beauty isn’t loud — it’s intentional.
               </p>
             </div>
           </div>

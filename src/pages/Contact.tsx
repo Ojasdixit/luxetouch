@@ -22,16 +22,12 @@ const Contact = () => {
   });
 
   const services = [
-    "Women's Haircut",
-    "Men's Haircut",
-    "Balayage",
-    "Full Color",
-    "Highlights",
-    "Bridal Styling",
-    "Manicure",
-    "Pedicure",
-    "Facial Treatment",
-    "Other",
+    "Signature Hair Design",
+    "Advanced Coloring & Highlights",
+    "Luxury Hair Treatments",
+    "Skin & Facial Spa",
+    "Nail & Hand Care",
+    "Occasion Styling & Makeup",
   ];
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -69,6 +65,13 @@ const Contact = () => {
           </p>
         </div>
 
+        {/* Booking Form Note */}
+        <div className="text-center mb-8">
+          <p className="text-foreground/70 max-w-2xl mx-auto">
+            To book an appointment, please use our online form or call the salon directly. Our team will confirm your reservation within 24 hours.
+          </p>
+        </div>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Information */}
           <div className="space-y-8 animate-fade-in">
@@ -83,8 +86,8 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1 text-foreground">Address</h3>
                     <p className="text-foreground/70">
-                      123 Luxury Lane<br />
-                      Beauty District, BD 12345
+                      28 Willow Lane<br />
+                      Midtown District, New York, NY 10017
                     </p>
                   </div>
                 </div>
@@ -95,8 +98,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1 text-foreground">Phone</h3>
-                    <a href="tel:+1234567890" className="text-foreground/70 hover:text-primary transition-smooth">
-                      (123) 456-7890
+                    <a href="tel:+12125550921" className="text-foreground/70 hover:text-primary transition-smooth">
+                      (212) 555-0921
                     </a>
                   </div>
                 </div>
@@ -107,8 +110,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1 text-foreground">Email</h3>
-                    <a href="mailto:hello@luxetouch.com" className="text-foreground/70 hover:text-primary transition-smooth">
-                      hello@luxetouch.com
+                    <a href="mailto:contact@luxetouch.com" className="text-foreground/70 hover:text-primary transition-smooth">
+                      contact@luxetouch.com
                     </a>
                   </div>
                 </div>
@@ -120,8 +123,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1 text-foreground">Opening Hours</h3>
                     <div className="text-foreground/70 space-y-1">
-                      <p>Monday - Friday: 9:00 AM - 7:00 PM</p>
-                      <p>Saturday: 10:00 AM - 6:00 PM</p>
+                      <p>Monday – Saturday: 9:00 AM – 7:30 PM</p>
                       <p>Sunday: Closed</p>
                     </div>
                   </div>
@@ -134,7 +136,7 @@ const Contact = () => {
               <p className="text-foreground/70 mb-4">
                 Our friendly team is available during business hours to answer your questions and help schedule your appointment.
               </p>
-              <a href="tel:+1234567890">
+              <a href="tel:+12125550921">
                 <Button variant="booking" size="lg" className="w-full">
                   <Phone className="h-5 w-5" />
                   Call Us Now
